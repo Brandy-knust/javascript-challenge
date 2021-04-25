@@ -76,7 +76,7 @@
     display: block;
     width: 100%;
     padding: 8px;
-    color: #8e979f;
+    color: #7da368;
     outline: none;
   }
   
@@ -129,22 +129,22 @@
   /* input placeholder color changes */
   .form-control::-webkit-input-placeholder {
     /* Chrome/Opera/Safari */
-    color: #8e979f;
+    color: #7da368;
   }
   
   .form-control::-moz-placeholder {
     /* Firefox 19+ */
-    color: #8e979f;
+    color: #7da368;
   }
   
   .form-control:-ms-input-placeholder {
     /* IE 10+ */
-    color: #8e979f;
+    color: #7da368;
   }
   
   .form-control:-moz-placeholder {
     /* Firefox 18- */
-    color: #8e979f;
+    color: #7da368;
   }
   
   /* media queries which will only be activated at specific screen sizes */
@@ -159,7 +159,7 @@
       display: none;
     }
   
-    #table-area tr td:first-child {
+    #table-area tr:nth-of-type(odd) {
       font-size: 1.8em;
       font-weight: bold;
       background: #658b4e;
