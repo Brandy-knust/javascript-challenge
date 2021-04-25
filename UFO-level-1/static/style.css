@@ -26,7 +26,7 @@
     bottom: 0;
     left: 0;
     min-height: 100px;
-    background: #4e5d6c;
+    background: #87aa72;
   }
   
   /* The code styles the text at the bottom of the footer */
@@ -162,7 +162,7 @@
     #table-area tr td:first-child {
       font-size: 1.8em;
       font-weight: bold;
-      background: #1b3146;
+      background: #658b4e;
     }
   
     #table-area tr td:last-child {
