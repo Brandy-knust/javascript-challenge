@@ -147,6 +147,13 @@
     color: #7da368;
   }
   
+  tr:nth-of-type(even) {
+    background: #7da368;
+    color: black;
+  }
+  #table-area thead {
+    background-color: #46611a
+  }
   /* media queries which will only be activated at specific screen sizes */
   @media (max-width: 800px) {
     #table-area td {
@@ -155,15 +162,9 @@
   }
   
   @media (max-width: 500px) {
-    #table-area thead {
-      display: none;
-    }
+    
   
-    #table-area tr:nth-of-type(odd) {
-      font-size: 1.8em;
-      font-weight: bold;
-      background: #658b4e;
-    }
+    
   
     #table-area tr td:last-child {
       margin-bottom: 20px;
