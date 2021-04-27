@@ -15,7 +15,7 @@ data.forEach((sighting) => {
 
 
 
-var button = d3.select("filter-btn");
+var button = d3.select("#filter-btn");
 
 
 
@@ -29,12 +29,11 @@ button.on("click", runEnter);
 function runEnter() {
     d3.event.preventDefault();
     
-    var inputField = d3.select("datetime");
+    var inputField = d3.select("#datetime");
     var inputValue = inputField.property("value");
 
     console.log(inputValue);
-    console.log(sighting);
-
+    
     var match = tableData.filter(sighting=>sighting.datetime==inputValue);
 
     console.log(match);
