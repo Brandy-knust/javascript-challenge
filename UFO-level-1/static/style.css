@@ -11,6 +11,9 @@
     background-color: #314a10;
   }
   
+  .container-fluid {
+    background-color: #87aa72; 
+  }
   /* The wrapper contains all of the page's content besides the footer, which is pushed to the bottom of the page */
   .wrapper {
     position: relative;
@@ -42,15 +45,18 @@
   .navbar {
     padding: 5px;
     margin: 0;
+    background-color: #87aa72;
   }
-  
+  .navbar-brand {
+    color: #1c3110;
+  }
   /* This CSS styles the ufo icon in the navbar */
   .nav-ufo {
     position: absolute;
     bottom: 5px;
     left: 150px;
     width: 35px;
-    color: white;
+    color: #1c3110
   }
   
   /* Adding styles to the aside and filter form */
@@ -58,15 +64,27 @@
     margin-top: 50px;
   }
   
-  .filters .panel-body {
-    padding: 0;
-    background-color: #7da368;
+  .btn-default {
+    background-color: #1c3110;
   }
-  
-  .panel-default .panel-header {
+
+  .panels-body {
     background-color: #7da368;
   }
 
+  .filters .panels-body {
+    padding: 0;
+    background-color: #7da368;
+  }
+  .panels {
+    background-color: #7da368;
+  }
+  .panels-default .panel-header {
+    background-color: #7da368;
+  }
+  .form-group {
+    background-color: #7da368;
+  }
   .filters {
     margin-top: 10px;
 
